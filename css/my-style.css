@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/*------------------------ Header Of WebSite ----------------------------*/
+
+header{
+    
+    height: 635px;
+    background-image: url(../images/first-bkg.jpg);
+    background-size: cover;
+    
+}
+
+.layout{
+    
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+
+.nav-item a:hover{
+    color: #28a745 !important;
+}
+
+
+.c-item a:hover{
+    background-color: #28a745;
+    color: white !important;
+}
+    
+
+
+.h-info{
+    font-size: 50px;
+}
+
+
+@media (max-width: 991.98px) { 
+    
+    header{
+    
+    background-size: 100% 100%;
+    
+}
+    
+    .h-main{
+        
+        margin-top: 0 !important;
+    }
+    
+    .h-main button {
+        padding: 3px 10px !important;
+    }
+    .navbar-nav{
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px ;
+    }
+    
+    .navbar-nav .nav-item a{
+        color: black !important;
+    }
+    
+    
+    
+    .nav-item a:hover{
+    color: #28a745 !important;
+    }
+    
+    .c-item a:hover{
+    color: white !important;
+}
+    
+    
+    .h-info{
+    font-size: 24px;
+    }
+}
+
+/*------------------------------- End Of Header ---------------------------*/
+
+/*--------------- section 3 -----------------*/
+
+.s3{
+    background-color: #f8f8f8;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card img{
+    
+    transition: transform 2s ;
+}
+
+.card:hover img{
+    
+    transform: scale(1.1,1.1);
+}
+.card-body a:hover{
+    text-decoration: none;
+    color: #28a745 !important;
+}
+
+/*---------------------- End Of Section 3 -------------------*/
+
+/*---------------------- Section 4 ---------------------------*/
+
+/* section4-button */
+.s4-btn:hover
+{
+    background: black !important;
+    color: white !important;
+}
+/*---------------------- End Of Section 4 -----------------------*/
+
+/*----------------------- section 5 ------------------------*/
+
+.s5{
+    background-color: #f8f8f8;
+}
+/*----------------------- Section 6 -------------------------*/
+.s6{
+    height: 400px;
+    background-image: url(../images/download.jpg);
+    background-size: 100% 100%;
+}
+@media (max-width: 991.98px){
+    .s6-content{
+        width: 90% !important;
+    }
+    .s6-info{
+        font-size: 14px;
+    }
+    .s6-content button{
+        padding: 10px !important;
+    }
+}
+
+/*------------------------- End Of Section 6 ---------------------------*/
+
+/*--------------------------- section 8 ----------------------*/
+
+.s8{
+     background-color: #f8f8f8;
+}
+
+/*------------------ Section 10 -------------------------------*/
+
+.s10-list li{
+    
+    margin-top: 8px;
+}
+
+.s10-list li a:hover{
+    text-decoration: none;
+    color: deepskyblue!important;
+}
+/*-------------------------- End Of Section 10 -------------------*/
+
+/*-------------------------- Footer ------------------------------*/
+footer{
+    background-color: black;
+}
+
+.social{
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px black sloid;
+    border-radius: 75%;
+}
+
+.fb:hover{
+    padding: 5px 7px 5px 7px;
+    background-color: blue;
+    color: white !important;
+}
+
+.go:hover{
+    background-color: firebrick;
+    color: white !important;
+}
+
+.lk:hover{
+    background-color: lightskyblue;
+    color: white !important;
+}
+
+.tw:hover{
+    background-color: deepskyblue;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
